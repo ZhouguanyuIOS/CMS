@@ -1,0 +1,274 @@
+@charset "UTF-8";
+body,h1,h2,h3,p,form,ul,li,dt,dd,ol{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #ffffff;
+    font-size: 12px;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+
+
+
+#top{
+    background: url("../images/admin_top_bg.gif");
+}
+#top h1{
+    width: 150px;
+    height: 80px;
+    font-size: 12px;
+    background: url("../images/logosmall.png") no-repeat;
+    text-indent: -9999px;
+    float: left;
+}
+#top ul{
+    float: left;
+    list-style: none;
+    padding: 47px 0 0 10px;
+}
+#top ul li{
+    float: left;
+}
+#top ul li a{
+    width: 58px;
+    height: 33px;
+    display: block;
+    background: url("../images/li_bg.png") no-repeat left bottom;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    line-height: 33px;
+}
+#top ul li a.selected{
+    background-position: right bottom;
+    color: #3b6ea5;
+}
+#top p{
+    float: right;
+    padding:33px 20px 0 0 ;
+    color: #ffffff;
+}
+#top p a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#top p a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+#sidebar {
+    background: #f7fbfc url("../images/sidebar_right.png")repeat-y right ;
+}
+#sidebar dl{
+    padding: 20px;
+    text-indent: 2px;
+}
+#sidebar dl dt{
+    font-size: 14px;
+    font-weight: bold;
+    color:  #3b6ea5;
+    border-bottom: 1px solid #cccccc;
+    padding: 5px 0;
+    margin: 5px 0;
+
+}
+#sidebar dl dd{
+    height: 22px;
+    line-height: 22px;
+
+}
+#sidebar dl dd a{
+    color: #333333;
+    text-decoration: none;
+
+}
+#sidebar dl dd a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+#main{
+   background: #ffffff;
+}
+#main div.map{
+    padding: 15px;
+    color: #333333;
+}
+#main div.map strong{
+    color: green;
+}
+#main  table{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+#main  table th,#main table td{
+    height: 30px;
+    line-height: 30px;
+    color: #333333;
+
+}
+#main  table th{
+    background: #eef3f7;
+    border-bottom: 1px solid #d5dfe8;
+    font-weight: normal;
+}
+#main  table td{
+
+    border-bottom: 1px solid #eeeeee;
+    font-weight: normal;
+}
+#main  table.left{
+    text-align: left;
+}
+#main  table tr{
+    background: #ffffff;
+}
+
+#main  table tr:hover{
+    background: #ffffcc;
+}
+#main a{
+    color: #3b6ea5;
+    text-decoration: none;
+}
+#main a:hover{
+    text-decoration: underline;
+}
+#main p.center{
+    text-align: center;
+    padding:20px;
+}
+
+
+#main form input.text{
+    width: 220px;
+    height: 19px;
+    background: #ffffff;
+    border:1px solid #cccccc;
+}
+#main form select{
+    width: 100px;
+    height: 19px;
+    background: #ffffff;
+}
+
+#main form textarea{
+    font-size: 13px;
+    width: 220px;
+    height: 100px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    margin: 0 0 0 60px;
+
+}
+
+#main form input.submit{
+    cursor: pointer;
+    margin: 0 0 0 60px;
+
+}
+
+#main ol{
+    padding: 0 0 0 26px;
+    height: 35px;
+
+
+}
+#main ol li{
+    float: left;
+    padding:  0 10px 0 0;
+}
+#main ol li a{
+    display: block;
+    padding: 6px;
+}
+#main ol li a:hover{
+    background:#eeeeee;
+}
+#main ol li a.selected{
+    background: #3b6ea5;
+    color: #ffffff;
+}
+
+#adminLogin {
+    width: 350px;
+    margin: 100px auto;
+    color: #666666;
+    font-size: 14px;
+
+}
+#adminLogin fieldset{
+    padding: 20px;
+}
+#adminLogin legend{
+    font-size: 16px;
+    font-weight: bold;
+}
+#adminLogin  label{
+    display: block;
+    margin: 5px;
+}
+#adminLogin  label.t{
+    color: #999999;
+    text-indent: 56px;
+}
+#adminLogin  label input.text{
+    width: 220px;
+    height: 27px;
+    border: 1px solid #666;
+    background: #eeeeee;
+
+}
+#adminLogin  input.submit{
+    margin: 0 0 0 60px;
+    cursor:pointer;
+}
+#adminLogin  label img{
+    margin: 0 0 0 56px;
+    cursor: pointer;
+
+}
+
+#page{
+    text-align: center;
+    padding: 10px;
+
+}
+#page a{
+    border: 1px solid #666666;
+
+    padding: 2px 5px;
+    margin: 0 2px;
+}
+#page a:hover,#page span.me{
+    color: #ffffff;
+    border:  1px solid #000000;
+    background: black;
+    text-decoration: none;
+}
+#page span.disabled{
+    border: 1px solid #cccccc;
+    padding: 2px 5px;
+    margin: 0 2px;
+    color: #cccccc;
+
+}
+#page span.me{
+    padding: 2px 5px;
+    margin: 0 2px;
+}
